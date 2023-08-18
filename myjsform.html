@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="myformstyle.css">
+</head>
+
+<body>
+    <div class="container">
+        <form id="myform">
+            <label>First Name</label>
+            <input type="text" name="fname" id="fname">
+            <br>
+            <br>
+            <label>Second Name</label>
+            <input type="text" name="sname" id="sname">
+            <br>
+            <br>
+            <label>Email</label>
+            <input type="text" name="ename" id="ename">
+            <br>
+            <div style="font-style: italic;color: red;" id="error"></div>
+            <br>
+            <input type="submit" value="submit" onclick="addrow()">
+
+        </form>
+        <br>
+        <table id="tabletop" >
+                <tr>
+                    <th>First name</th>
+                    <th>Second name</th>
+                    <th>Email</th>
+                </tr>
+        </table>
+        <script src="myform.js"></script>
+    </div>
+</body>
+
+</html>

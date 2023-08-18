@@ -1,0 +1,21 @@
+
+#fname{
+    margin-left: 23px;
+}
+#sname{
+    margin-left: 5px;
+}
+#ename{
+    margin-left: 55px;
+}
+table{
+    border-collapse: collapse;
+    width: 400px;
+}
+
+table th{
+    border: 2px solid black;
+    height: 50px;
+    margin-top: 15px;
+ } 
+ 
